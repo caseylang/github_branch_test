@@ -7,5 +7,5 @@ resource "random_id" "random" {
 }
 
 output "random" {
-  value = "${random_id.random.hex}"
+  value = "very wow ${random_id.random.hex}"
 }
