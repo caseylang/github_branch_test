@@ -7,5 +7,5 @@ resource "random_id" "random" {
 }
 
 output "random" {
-  value = "This is burger country.${random_id.random.hex}"
+  value = "${random_id.random.hex}"
 }
